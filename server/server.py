@@ -1,12 +1,12 @@
-from flask import Flask, request, jsonify
-from flask_cors import CORS
-import json
+from flask import Flask, send_from_directory
+import os
 
+app = Flask(__name__, static_folder='dist', static_url_path='/survey')
 
-app = Flask(__name__)
-CORS(app)
-counter = 0
-
+@app.route('/survey')
+@app.route('/survey/<path:path>')
+def survey(path='index.html'):
+    return send_from_directory(app.static_folder, path)
 
 @app.route('/survey-data', methods=['POST'])
 def survey_data():
