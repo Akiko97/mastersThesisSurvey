@@ -621,7 +621,7 @@ const saveSurveyResults = (url, json) => {
 
 <template>
   <el-container>
-    <el-header height="100px"><h1>{{ msg }}</h1></el-header>
+    <el-header height="80px"><h1>{{ msg }}</h1></el-header>
     <el-main><SurveyComponent :model="survey" /></el-main>
     <el-footer>
       <div style="text-align: center;">
