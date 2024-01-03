@@ -23,4 +23,4 @@ def survey_data():
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=12163, debug=True)
+    app.run(host='0.0.0.0', port=12163, ssl_context=('./cert.pem', './key.pem'), debug=True)
