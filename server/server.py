@@ -1,10 +1,10 @@
 from flask import Flask, send_from_directory
 import os
 
-app = Flask(__name__, static_folder='dist', static_url_path='/survey')
+app = Flask(__name__, static_folder='dist', static_url_path='/')
 
-@app.route('/survey')
-@app.route('/survey/<path:path>')
+@app.route('/')
+@app.route('/<path:path>')
 def survey(path='index.html'):
     return send_from_directory(app.static_folder, path)
 
