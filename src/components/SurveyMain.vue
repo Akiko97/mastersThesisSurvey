@@ -351,7 +351,7 @@ _start:
         },
         {
           type: "html",
-          html: `<h4>代码片段5的静态可视化</h4><img src="v1.svg" alt="V1">`
+          html: `<h4>代码片段5的静态可视化</h4><img src="v1.svg" alt="V1" style="width: 90%;">`
         },
         {
           type: "radiogroup",
@@ -392,7 +392,7 @@ _start:
         },
         {
           type: "html",
-          html: `<h4>代码片段6的静态可视化</h4><img src="v2.svg" alt="V2">`
+          html: `<h4>代码片段6的静态可视化</h4><img src="v2.svg" alt="V2" style="width: 90%;">`
         },
         {
           type: "radiogroup",
@@ -442,7 +442,7 @@ _start:
         },
         {
           type: "html",
-          html: `<h4>代码片段5的动态可视化（循环播放）</h4><img src="dv1.gif" alt="DV1">`
+          html: `<h4>代码片段5的动态可视化（循环播放）</h4><img src="dv1.gif" alt="DV1" style="width: 90%;">`
         },
         {
           type: "radiogroup",
@@ -484,7 +484,7 @@ _start:
         {
           type: "html",
           // TODO
-          html: `<h4>代码片段6的动态可视化（循环播放）</h4><img src="dv2.gif" alt="DV2">`
+          html: `<h4>代码片段6的动态可视化（循环播放）</h4><img src="dv2.gif" alt="DV2" style="width: 90%;">`
         },
         {
           type: "radiogroup",
