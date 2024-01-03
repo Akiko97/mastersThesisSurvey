@@ -587,7 +587,7 @@ _start:
 const survey = new Model(surveyJson)
 survey.onComplete.add((sender) => {
   saveSurveyResults(
-    "https://ch.gabzhong.dev:12163/survey-data",
+    "https://ch.gabzhong.dev/survey-data",
     sender.data
   )
 })
